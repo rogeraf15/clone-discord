@@ -14,32 +14,33 @@ export const Container = styled.div`
 `;
 
 export const Messages = styled.div`
-    padding: 20px 0;
+    padding: 2px 2px;
 
     display: flex;
     flex-direction: column;
 
-    max-height: cal(100vh - 46px - 68px);
-    overflow: scrool;
+    max-height: calc(100vh - 45.99px - 67.99px);
+    overflow: scroll;
 
     ::-webkit-scrollbar {
+        height: 0px;
         width: 8px;
-    }
+    };
 
     ::-webkit-scrollbar-thumb {
         background-color: var(--tertiary);
         border-radius: 4px;
-    }
+    };
 
     ::-webkit-scrollbar-track {
         background-color: var(--secondary);
-    }
+    };
 `;
 
 export const InputWrapper = styled.div`
     width: 100%;
     
-    padding: 0 16px;
+    padding: 0 20px;
 `;
 
 export const Input = styled.input`

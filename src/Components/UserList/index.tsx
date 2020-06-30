@@ -23,21 +23,20 @@ const UserList: React.FC = () => {
     return (
         <Container>
             <Role>Disponível - 1 </Role>
-            <UserRow nickname="Roger Fernandes" />
+            <UserRow nickname= "Beltrano" isBot />
+            <UserRow nickname= "Fulano 2" />
+            <UserRow nickname= "Fulano 4" />
+            <UserRow nickname= "Fulano 8" />
 
             <Role> Offline - 8 </Role>
-            <UserRow nickname= "Beltrano" isBot />
-            <UserRow nickname= "Fulano1" />
-            <UserRow nickname= "Fulano2" />
-            <UserRow nickname= "Fulano3" />
-            <UserRow nickname= "Fulano4" />
-            <UserRow nickname= "Fulano5" />
-            <UserRow nickname= "Fulano6" />
-            <UserRow nickname= "Fulano7" />
-            <UserRow nickname= "Fulano8" />
-            <UserRow nickname= "Fulano9" />
-            <UserRow nickname= "Fulano10" isBot />
-            <UserRow nickname= "Fulano11" />
+            <UserRow nickname= "Fulano 1" />
+            <UserRow nickname= "Fulano 3" />
+            <UserRow nickname= "Fulano 5" />
+            <UserRow nickname= "Fulano 6" />
+            <UserRow nickname= "Fulano 7" />
+            <UserRow nickname= "Fulano 9" />
+            <UserRow nickname= "Fulano 10" isBot />
+            <UserRow nickname= "Fulano 11" />
         </Container>
     );
 };

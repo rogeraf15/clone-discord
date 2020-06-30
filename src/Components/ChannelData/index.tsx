@@ -37,6 +37,62 @@ const ChannelData: React.FC = () => {
                     hasMention
                     isBot
                 />
+
+                <ChannelMessage
+                    author = "Fulano 8"
+                    date = "29/06/2020"
+                    content = "Eu também curto!!"
+                />
+
+                <ChannelMessage
+                    author = "Fulano 2"
+                    date = "29/06/2020"
+                    content = "Não sei nada sobre React, mas to aim de aprender!"
+                />
+
+                <ChannelMessage
+                    author = "Fulano 8"
+                    date = "29/06/2020"
+                    content ={
+                        <>
+                            <Mention>@Fulano 2</Mention>, também sou novo, mas to curtindo muito!
+                        </>
+                    }
+                    hasMention
+                    isBot
+                />
+
+                <ChannelMessage
+                    author = "Fulano 4"
+                    date = "29/06/2020"
+                    content = "Aqui estou mais um dia!"
+                />
+
+                <ChannelMessage
+                    author = "Fulano 2"
+                    date = "29/06/2020"
+                    content = "Sob o olhar sanguinário do vigia!"
+                />
+
+                <ChannelMessage
+                    author = "Fulano 8"
+                    date = "29/06/2020"
+                    content = "Você não sabe como é caminhar com a cabeça na mira de uma HK"
+                />
+
+                <ChannelMessage
+                    author = "Fulano 4"
+                    date = "29/06/2020"
+                    content = "Metralhadora alemã ou de Israel"
+                />
+
+                <ChannelMessage
+                    author = "Fulano 2"
+                    date = "29/06/2020"
+                    content = "Estraçalha ladrão que nem papel"
+                />
+
+                
             </Messages>
             
             <InputWrapper>
